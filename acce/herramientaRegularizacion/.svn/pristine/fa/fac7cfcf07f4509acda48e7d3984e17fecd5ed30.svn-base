@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:integration="http://www.springframework.org/schema/integration"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/integration
+            http://www.springframework.org/schema/integration/spring-integration.xsd">
+
+	<!-- definición de la connection factory -->
+	<bean id="resConnectionFactory"
+		class="org.springframework.jms.connection.SingleConnectionFactory">
+		<property name="targetConnectionFactory" ref="resInternalJmsQueueConnectionFactory" />
+		<property name="reconnectOnException" value="true" />
+	</bean>
+
+	<!-- asociación de la connection factory con el contexto JNDI -->
+	<bean id="resInternalJmsQueueConnectionFactory" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate" ref="resJndiTemplate" />
+		<property name="jndiName" value="JMSC_MOMAEU_TRAZABILIDAD" />
+	</bean>
+
+	<bean id="resRequestQueue" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate" ref="resJndiTemplate" />
+		<property name="jndiName" value="JMSQ_APL_MOMAEU_TRAZABILIDAD_A_TRAZA" />
+	</bean>
+
+	<bean id="resRequestQueueError" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate" ref="resJndiTemplate" />
+		<property name="jndiName" value="JMSQ_APL_MOMAEU_TRAZABILIDAD_A_ERROR" />
+	</bean>
+	
+<!-- 		<bean id="resRequestQueue" class="org.springframework.jndi.JndiObjectFactoryBean"> -->
+<!-- 		<property name="jndiTemplate" ref="resJndiTemplate" /> -->
+<!-- 		<property name="jndiName" value="JMSQ_APL_MOMAEU_TRAZABILIDAD_A_TRAZA_ELE" /> -->
+<!-- 	</bean> -->
+	
+
+<!-- 	<bean id="resRequestQueueError" class="org.springframework.jndi.JndiObjectFactoryBean"> -->
+<!-- 		<property name="jndiTemplate" ref="resJndiTemplate" /> -->
+<!-- 		<property name="jndiName" value="JMSQ_APL_MOMAEU_TRAZABILIDAD_A_ERROR_ELE" /> -->
+<!-- 	</bean> -->
+
+<!-- 	<bean id="resReplyQueue" class="org.springframework.jndi.JndiObjectFactoryBean"> -->
+<!-- 		<property name="jndiTemplate" ref="resJndiTemplate" /> -->
+<!-- 		<property name="jndiName" value="JMSQ_BUS_MOMAES_I" /> -->
+<!-- 	</bean> -->
+
+	<bean id="resReplyQueue" class="org.springframework.jndi.JndiObjectFactoryBean">
+		<property name="jndiTemplate" ref="resJndiTemplate" />
+		<property name="jndiName" value="JMSQ_BUS_MOMAESOOEE_I" />
+	</bean>
+
+	<!-- Definicion de la localizacion donde se encuentra los dependientes de 
+		entorno, comentar para por ejemplo tests -->
+	<bean id="propertyConfigurer"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location">
+			<value>file:///${ADA_GLOBAL_PROPERTIES}/global.properties</value>
+		</property>
+	</bean>
+
+	<!-- definición del contexto JNDI y del fichero de bindings -->
+	<bean id="resJndiTemplate" class="org.springframework.jndi.JndiTemplate">
+		<property name="environment">
+			<props>
+				<!-- <prop key="java.naming.factory.initial">${initial.context.factory}</prop> -->
+				<!-- <prop key="java.naming.provider.url">${provider.url}</prop> -->
+				<prop key="java.naming.provider.url">file:C:\apps\MomaWeb\momaes_BUST</prop>
+				<prop key="java.naming.factory.initial">com.sun.jndi.fscontext.RefFSContextFactory</prop>
+
+			</props>
+		</property>
+	</bean>
+
+</beans>

@@ -1,0 +1,16 @@
+<Envelope id="MOBILE0000200104">
+
+    <Body>
+        <INT-MOV-007>
+            <messageId>ZEUS0001967059</messageId>
+            <origen>ZEUS</origen>
+            <codigoPais>01</codigoPais>
+            <codigoSector>2</codigoSector>
+            <fechaEnvio>06092016 121609</fechaEnvio>
+            <tipoPeticion>001</tipoPeticion>
+            <tipoOrden>001</tipoOrden>
+            <numeroOrden>901183019000003</numeroOrden>
+            <codigoTeam>316208-0415</codigoTeam>
+            <tipoVisita/> </INT-MOV-007>
+    </Body>
+</Envelope>

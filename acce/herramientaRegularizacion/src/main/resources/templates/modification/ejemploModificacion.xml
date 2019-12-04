@@ -1,0 +1,193 @@
+<Envelope id="MOBILE0000200103">
+	<Body>
+		<INT-MOV-004>
+                    <messageId>ZEUS0002064192</messageId>
+                    <origen>ZEUS</origen>
+                    <codigoPais>01</codigoPais>
+                    <nombrePais>ESPAÑA</nombrePais>
+                    <fechaEnvio>27092016 115349</fechaEnvio>
+                    <numeroOrden>1307821</numeroOrden>
+                    <tipoOrden>001</tipoOrden>
+                    <nroOrdenVinculada/>
+                    <codigoTeam>ACTIVAIS - VALENCIA</codigoTeam>
+                    <observaciones/>
+                    <codigoAgente/>
+                    <indicadorObligatorioObservaciones>0</indicadorObligatorioObservaciones>
+                    <fechaCreacion>02082016 000000</fechaCreacion>
+                    <fechaVencimiento>01092016 235959</fechaVencimiento>
+                    <fechaInicioConcertacion>05082016 120052</fechaInicioConcertacion>
+                    <fechaFinConcertacion>05082016 140059</fechaFinConcertacion>
+                    <duracion>40</duracion>
+                    <acreditaciones>P</acreditaciones>
+                    <asignacionMultiple>0</asignacionMultiple>
+                    <servicios>001</servicios>
+                    <direccionPdS>
+                        <direccion>JOSE MARIA MORTES LERMA</direccion>
+                        <codigoPostal>46014</codigoPostal>
+                        <codigoPoblacion>46250000000</codigoPoblacion>
+                        <poblacion>VALENCIA</poblacion>
+                        <codigoProvincia>46</codigoProvincia>
+                        <provincia>VALENCIA</provincia>
+                        <numero>0042</numero>
+                        <portal/>
+                        <escalera/>
+                        <piso/>
+                        <puerta>00004</puerta>
+                    </direccionPdS>
+                    <codigoSector>2</codigoSector>
+                    <descripcionSector>GAS</descripcionSector>
+                    <codigoSociedad>0103</codigoSociedad>
+                    <nombreSociedad>GAS NATURAL CEGAS S.A.</nombreSociedad>
+                    <codigoZona>10</codigoZona>
+                    <nombreZona>COMUNITAT VALENCIANA</nombreZona>
+                    <codigoUtilizacionGas>85</codigoUtilizacionGas>
+                    <descripcionUtilizacionGas>Otros</descripcionUtilizacionGas>
+                    <codigoUsosGas>2</codigoUsosGas>
+                    <descripcionUsosGas>DOMESTICO</descripcionUsosGas>
+                    <datosRegistralesSociedad>R.M. DE VALENCIA. TOMO 4452, HOJA V_24907</datosRegistralesSociedad>
+                    <codigoComercializadora>Z052</codigoComercializadora>
+                    <nombreComercializadora>IBERDROLA CLIENTES, S.A.U</nombreComercializadora>
+                    <direccionComercializadora> TOMAS REDONDO</direccionComercializadora>
+                    <codigoOperacion>01</codigoOperacion>
+                    <descripcionCortaOperacion>ALTSUM</descripcionCortaOperacion>
+                    <descripcionOperacion>ALTA DE SUMINISTRO</descripcionOperacion>
+                    <situacionOperacion>0</situacionOperacion>
+                    <maxDiasConcertacion/>
+                    <codigoAcometida>ACO462500104100040</codigoAcometida>
+                    <equipo>
+                        <marca/>
+                        <modelo/>
+                        <numero/>
+                        <digitos/>
+                        <propiedad/>
+                        <ubicacion/>
+                        <codigoUbicacion/>
+                        <lectura/>
+                        <tipoEquipo/>
+                        <codigoCapacidadEquipo/>
+                        <descripcionCapacidadEquipo/>
+                    </equipo>
+                    <datosCliente>
+                        <nombre>XINJHUAN HUANG .</nombre>
+                        <numeroDocumento>X6315074X</numeroDocumento>
+                        <direccion>
+                            <direccion/>
+                            <codigoPostal/>
+                            <poblacion/>
+                            <codigoPoblacion/>
+                            <provincia/>
+                            <codigoProvincia/>
+                            <numero/>
+                            <portal/>
+                            <escalera/>
+                            <piso/>
+                            <puerta/>
+                        </direccion>
+                        <telefonoFijo>963775911</telefonoFijo>
+                        <telefonoMovil>675074339</telefonoMovil>
+                        <telefonoMovilFacilitado/>
+                        <telefonoFijoFacilitado/>
+                    </datosCliente>
+                    <datosContacto>
+                        <nombre/>
+                        <telefono/>
+                    </datosContacto>
+                    <tipoInstalacion>20</tipoInstalacion>
+                    <descripcionTipoInstalacion>IRI (DOMESTICO &lt; 70kW)</descripcionTipoInstalacion>
+                    <datosInstalador>
+                        <nombre/>
+                        <telefono/>
+                        <telefonoMovil/>
+                        <email/>
+                    </datosInstalador>
+                    <descripcionTipoGas>GAS NATURAL</descripcionTipoGas>
+                    <unifamiliar>N</unifamiliar>
+                    <cierreFinca>0</cierreFinca>
+                    <nroAparatosTransformar>0</nroAparatosTransformar>
+                    <descripcionEmpresaConcesionaria/>
+                    <fechaPrevistaEjecucion>05082016</fechaPrevistaEjecucion>
+                    <horaDesdePrevista>121022</horaDesdePrevista>
+                    <horaHastaPrevista/>
+                    <fechaMinimaEjecucion>02082016 000000</fechaMinimaEjecucion>
+                    <fechaMaximaEjecucion>01092016 235959</fechaMaximaEjecucion>
+                    <fechaSolicitadaPrevistaEjecucion>02082016</fechaSolicitadaPrevistaEjecucion>
+                    <horaDesdeSolicitadaEjecucion>0000</horaDesdeSolicitadaEjecucion>
+                    <horaHastaSolicitadaEjecucion>0000</horaHastaSolicitadaEjecucion>
+                    <fechaInspeccion/>
+                    <numeroDiasRetornoIP>11</numeroDiasRetornoIP>
+                    <datosVisita1>
+                        <fechaResultadoVisita>05082016 121122</fechaResultadoVisita>
+                        <resultadoVisita>VISSTA0002</resultadoVisita>
+                        <defectosResultadoVisita/>
+                    </datosVisita1>
+                    <datosVisita2>
+                        <fechaResultadoVisita>01122014 111400</fechaResultadoVisita>
+                        <resultadoVisita>VISSTA0001</resultadoVisita>
+                        <defectosResultadoVisita/>
+                    </datosVisita2>
+                    <fechaPuestaServicioIRI>22081990</fechaPuestaServicioIRI>
+                    <fechaPuestaServicioIRC/>
+                    <fechaSituacionSevicio/>
+                    <situacionSevicio/>
+                    <defectosUltimaSituacionServicio/>
+                    <presionContaje>22</presionContaje>
+                    <direccionVerticalPSM1/>
+                    <direccionVerticalPSM2/>
+                    <direccionVerticalPSM3/>
+                    <direccionVerticalPSM4/>
+                    <direccionVerticalPSM5/>
+                    <coordenadaX>-0.404261399145928</coordenadaX>
+                    <coordenadaY>39.4629430091887</coordenadaY>
+                    <numeroContrato/>
+                    <cups>ES0222120010464513JS</cups>
+                    <indicadorICMPCM/>
+                    <tarifa>3.1</tarifa>
+                    <codigoConexion/>
+                    <contratoUsoIRC>
+                        <indicadorContratoUsoIRC>N</indicadorContratoUsoIRC>
+                        <indicadorFormaPago>N</indicadorFormaPago>
+                        <importeDerechosAcometidaContratante>0,00</importeDerechosAcometidaContratante>
+                        <importeDerechosAcometidaSolicitante>0,00</importeDerechosAcometidaSolicitante>
+                        <derechosAlta>76,17</derechosAlta>
+                        <totalSinIVA>76,17</totalSinIVA>
+                        <IVA>16,00</IVA>
+                        <alquilerContador>15,00</alquilerContador>
+                        <alquilerInstalacionComun>0,00</alquilerInstalacionComun>
+                        <importeUsoIRC/>
+                        <datosBancarios/>
+                        <Exencion>N</Exencion>
+                        <MesesExencion/>
+                        <Vitalicio>N</Vitalicio>
+                        <FechaFinExencion/>
+                    </contratoUsoIRC>
+                    <maxFallidas>15</maxFallidas>
+                    <numFallidas>1</numFallidas>
+                    <maxAnomalias>15</maxAnomalias>
+                    <numAnomalias>0</numAnomalias>
+                    <anomaliasIP>gnf.gps.gestiontecnica.operaciones.movilidad.dto.GcgtIntMovilidadXMLAnomaliasIPDto@2abcbafd</anomaliasIP>
+                    <anomaliasOP/>
+                    <tipoConcertacion>APPT0001</tipoConcertacion>
+                    <intentosConcertacion>999</intentosConcertacion>
+                    <numIntentosConcertacion>6</numIntentosConcertacion>
+                    <importeOperacion>0.000</importeOperacion>
+                    <codigoLote/>
+                    <tipoVisita/>
+                    <origenVisitaComplementaria/>
+                    <origenCierreVinculada/>
+                    <codigoMotivoCese/>
+                    <descripcionMotivoCese/>
+                    <motivoCambioContador/>
+                    <idiomaCliente/>
+                    <codigoMercado>ES</codigoMercado>
+                    <codigoUnidadGestora>57983</codigoUnidadGestora>
+                    <descripcionUnidad>SATURACIÓN VERTICAL</descripcionUnidad>
+                    <indicadorUltimoCliente>0</indicadorUltimoCliente>
+                    <indicadorClienteVIP>0</indicadorClienteVIP>
+                    <codigoDelegacion>0103LE06</codigoDelegacion>
+                    <nombreDelegacion>Deleg.: SV y ES Levante CEGAS (0103)</nombreDelegacion>
+                    <idCampanya/>
+                    <codigoCampanya/>
+                    <prioridad>PRI5790002</prioridad>
+                </INT-MOV-004>
+	</Body>
+</Envelope>

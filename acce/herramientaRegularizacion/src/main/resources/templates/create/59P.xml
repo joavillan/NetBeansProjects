@@ -1,0 +1,199 @@
+<Envelope id="MOBILE0000200102">
+    <Body>
+        <INT-MOV-002>
+            <messageId>ZEUS0001080249</messageId>
+            <origen>ZEUS</origen>
+            <codigoPais>01</codigoPais>
+            <nombrePais>ESPAÑA</nombrePais>
+            <fechaEnvio>23022016 092103</fechaEnvio>
+            <numeroOrden>2017021359P2</numeroOrden>
+            <tipoOrden>001</tipoOrden>
+            <nroOrdenVinculada></nroOrdenVinculada>
+            <codigoTeam>315915-0343</codigoTeam>
+            <observaciones></observaciones>
+            <codigoAgente></codigoAgente>
+            <indicadorObligatorioObservaciones>0</indicadorObligatorioObservaciones>
+            <fechaCreacion>22022016 000000</fechaCreacion>
+            <fechaVencimiento>23032016 235959</fechaVencimiento>
+            <fechaInicioConcertacion></fechaInicioConcertacion>
+            <fechaFinConcertacion></fechaFinConcertacion>
+            <duracion>20</duracion>
+            <acreditaciones>P</acreditaciones>
+            <asignacionMultiple>0</asignacionMultiple>
+            <servicios>001</servicios>
+            <direccionPdS>
+                <direccion>RIU BRUGENT</direccion>
+                <codigoPostal>02001</codigoPostal>
+                <codigoPoblacion>43038000000</codigoPoblacion>
+                <poblacion>CAMBRILS</poblacion>
+                <codigoProvincia>43</codigoProvincia>
+                <provincia>TARRAGONA</provincia>
+                <numero>0002</numero>
+                <portal>C</portal>
+                <escalera>B</escalera>
+                <piso>03</piso>
+                <puerta>00002</puerta>
+            </direccionPdS>
+            <codigoSector>2</codigoSector>
+            <descripcionSector>GAS</descripcionSector>
+            <codigoSociedad>0118</codigoSociedad>
+            <nombreSociedad>GAS NATURAL DISTRIBUCIÓN SDG, S.A.</nombreSociedad>
+            <codigoZona>09</codigoZona>
+            <nombreZona>CATALUNYA</nombreZona>
+            <codigoUtilizacionGas>74</codigoUtilizacionGas>
+            <descripcionUtilizacionGas>Cocina con horno/encimera y Caldera Calefacción</descripcionUtilizacionGas>
+            <codigoUsosGas>2</codigoUsosGas>
+            <descripcionUsosGas>DOMESTICO</descripcionUsosGas>
+            <datosRegistralesSociedad>R.M.BARCELONA T.36512,FOL.120,H.B-279362</datosRegistralesSociedad>
+            <codigoComercializadora>0137</codigoComercializadora>
+            <nombreComercializadora>GAS NATURAL S.U.R., SDG, S.A.</nombreComercializadora>
+            <direccionComercializadora>PL GAS, 01  - BARCELONA, BARCELONA (08003)</direccionComercializadora>
+            <codigoOperacion>59</codigoOperacion>
+            <descripcionCortaOperacion>RE ALTA NE</descripcionCortaOperacion>
+            <descripcionOperacion>REAPERTURA ALTA NUEVA EDIFICACION</descripcionOperacion>
+            <situacionOperacion>0</situacionOperacion>
+            <codigoAcometida>ACO430384404520004</codigoAcometida>
+            <descripcionRangoPresionRed>MEDIA PRESION 59</descripcionRangoPresionRed>
+            <equipo>
+                <marca>K</marca>
+                <modelo>MODELO DESCONOCIDO (MEMBRANA)</modelo>
+                <numero>707096227</numero>
+                <digitos>5</digitos>
+                <propiedad>GNF</propiedad>
+                <ubicacion>BATERÍA</ubicacion>
+                <codigoUbicacion>TILOC00003</codigoUbicacion>
+                <lectura>0</lectura>
+                <tipoEquipo>TAPAR00009</tipoEquipo>
+                <codigoCapacidadEquipo>CL00000001</codigoCapacidadEquipo>
+                <descripcionCapacidadEquipo>G-4</descripcionCapacidadEquipo>
+            </equipo>
+            <datosCliente>
+                <nombre>VIOLETA ALTABA MONFERRER</nombre>
+                <numeroDocumento>18982195L</numeroDocumento>
+                <direccion>
+                    <direccion></direccion>
+                    <codigoPostal></codigoPostal>
+                    <poblacion></poblacion>
+                    <codigoPoblacion></codigoPoblacion>
+                    <provincia></provincia>
+                    <codigoProvincia></codigoProvincia>
+                    <numero></numero>
+                    <portal></portal>
+                    <escalera></escalera>
+                    <piso></piso>
+                    <puerta></puerta>
+                </direccion>
+                <telefonoFijo>655354606</telefonoFijo>
+                <telefonoMovil></telefonoMovil>
+                <telefonoMovilFacilitado></telefonoMovilFacilitado>
+                <telefonoFijoFacilitado></telefonoFijoFacilitado>
+            </datosCliente>
+            <datosContacto>
+                <nombre>PROMOTOR POLIGONO 69, S.C.P.</nombre>
+                <telefono>999999999</telefono>
+            </datosContacto>
+            <tipoInstalacion>20</tipoInstalacion>
+            <descripcionTipoInstalacion>IRI (DOMESTICO &lt; 70kW)</descripcionTipoInstalacion>
+            <datosInstalador>
+                <nombre>INSTAL.LACIONS I MANTENIME CAT</nombre>
+                <telefono>977366288</telefono>
+                <telefonoMovil></telefonoMovil>
+                <email></email>
+            </datosInstalador>
+            <descripcionTipoGas>GAS NATURAL</descripcionTipoGas>
+            <unifamiliar>N</unifamiliar>
+            <cierreFinca>0</cierreFinca>
+            <nroAparatosTransformar></nroAparatosTransformar>
+            <descripcionEmpresaConcesionaria></descripcionEmpresaConcesionaria>
+            <fechaPrevistaEjecucion></fechaPrevistaEjecucion>
+            <horaDesdePrevista></horaDesdePrevista>
+            <horaHastaPrevista></horaHastaPrevista>
+            <fechaMinimaEjecucion>22022016 000000</fechaMinimaEjecucion>
+            <fechaMaximaEjecucion>23032016 235959</fechaMaximaEjecucion>
+            <fechaSolicitadaPrevistaEjecucion>22022016</fechaSolicitadaPrevistaEjecucion>
+            <horaDesdeSolicitadaEjecucion>0000</horaDesdeSolicitadaEjecucion>
+            <horaHastaSolicitadaEjecucion>0000</horaHastaSolicitadaEjecucion>
+            <fechaInspeccion></fechaInspeccion>
+            <numeroDiasRetornoIP>11</numeroDiasRetornoIP>
+            <datosVisita1>
+                <fechaResultadoVisita>22022016 112900</fechaResultadoVisita>
+                <resultadoVisita>VISSTA0001</resultadoVisita>
+                <defectosResultadoVisita>
+                    <defecto>R19</defecto>
+                    <defecto>R34</defecto>
+                    <defecto>R7</defecto>
+                    <defecto>R1</defecto>
+                </defectosResultadoVisita>
+            </datosVisita1>
+            <datosVisita2>
+                <fechaResultadoVisita>19022016 160800</fechaResultadoVisita>
+                <resultadoVisita>VISSTA0001</resultadoVisita>
+                <defectosResultadoVisita/>
+            </datosVisita2>
+            <fechaPuestaServicioIRI>26072007</fechaPuestaServicioIRI>
+            <fechaPuestaServicioIRC></fechaPuestaServicioIRC>
+            <fechaSituacionServicio>26072007 000000</fechaSituacionServicio>
+            <situacionServicio>EN SERVICIO</situacionServicio>
+            <defectosUltimaSituacionServicio>
+                <defecto>R19</defecto>
+                <defecto>R34</defecto>
+                <defecto>R7</defecto>
+            </defectosUltimaSituacionServicio>
+            <presionContaje>22</presionContaje>
+            <direccionVerticalPSM1></direccionVerticalPSM1>
+            <direccionVerticalPSM2></direccionVerticalPSM2>
+            <direccionVerticalPSM3></direccionVerticalPSM3>
+            <direccionVerticalPSM4></direccionVerticalPSM4>
+            <direccionVerticalPSM5></direccionVerticalPSM5>
+            <coordenadaX>1.08350104886585</coordenadaX>
+            <coordenadaY>41.0656966024095</coordenadaY>
+            <numeroContrato>ES0230010278471756EP0002</numeroContrato>
+            <cups>ES0230010278471756EP</cups>
+            <codigoConexion></codigoConexion>
+            <contratoUsoIRC>
+                <indicadorContratoUsoIRC>N</indicadorContratoUsoIRC>
+                <indicadorFormaPago>N</indicadorFormaPago>
+                <importeDerechosAcometidaContratante>106,34</importeDerechosAcometidaContratante>
+                <importeDerechosAcometidaSolicitante>0,00</importeDerechosAcometidaSolicitante>
+                <derechosAlta>63,51</derechosAlta>
+                <totalSinIVA>169,85</totalSinIVA>
+                <IVA>35,67</IVA>
+                <alquilerContador>15,00</alquilerContador>
+                <alquilerInstalacionComun>0,00</alquilerInstalacionComun>
+                <importeUsoIRC>0,00</importeUsoIRC>
+                <datosBancarios></datosBancarios>
+            </contratoUsoIRC>
+            <maxFallidas>2</maxFallidas>
+            <numFallidas>0</numFallidas>
+            <maxAnomalias>2</maxAnomalias>
+            <numAnomalias>0</numAnomalias>
+            <anomaliasIP/>
+            <anomaliasOP>
+                <anomalia>R19</anomalia>
+                <anomalia>R34</anomalia>
+                <anomalia>R7</anomalia>
+            </anomaliasOP>
+            <tipoConcertacion>APPT0001</tipoConcertacion>
+            <intentosConcertacion>2</intentosConcertacion>
+            <numIntentosConcertacion>0</numIntentosConcertacion>
+            <importeOperacion>0.000</importeOperacion>
+            <codigoLote></codigoLote>
+            <tipoVisita></tipoVisita>
+            <origenVisitaComplementaria></origenVisitaComplementaria>
+            <origenCierreVinculada></origenCierreVinculada>
+            <codigoMotivoCese></codigoMotivoCese>
+            <descripcionMotivoCese></descripcionMotivoCese>
+            <motivoCambioContador></motivoCambioContador>
+            <idiomaCliente>CASTELLANO</idiomaCliente>
+            <codigoMercado>NE</codigoMercado>
+            <codigoUnidadGestora>11880</codigoUnidadGestora>
+            <descripcionUnidad>NOUS CLIENTS TARRAGONA</descripcionUnidad>
+            <indicadorUltimoCliente>0</indicadorUltimoCliente>
+            <indicadorClienteVIP>0</indicadorClienteVIP>
+            <codigoDelegacion>0118ES05</codigoDelegacion>
+            <nombreDelegacion>Deleg.: Tarragona (0118)</nombreDelegacion>
+            <idCampanya></idCampanya>
+            <codigoCampanya></codigoCampanya>
+        </INT-MOV-002>
+    </Body>
+</Envelope>

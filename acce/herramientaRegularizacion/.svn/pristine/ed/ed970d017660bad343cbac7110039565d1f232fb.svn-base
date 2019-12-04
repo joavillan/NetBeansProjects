@@ -1,0 +1,192 @@
+<Envelope id="MOBILE0000200102">
+    <Body>
+        <INT-MOV-002>
+	<messageId>ZEUS0002721746</messageId>
+	<origen>ZEUS</origen>
+	<codigoPais>01</codigoPais>
+	<nombrePais>ESPAÑA</nombrePais>
+	<fechaEnvio>22022017 194142</fechaEnvio>
+	<numeroOrden>2132125</numeroOrden>
+	<tipoOrden>001</tipoOrden>
+	<nroOrdenVinculada/>
+	<codigoTeam>ICISA - CASTELLON</codigoTeam>
+	<observaciones/>
+	<codigoAgente/>
+	<indicadorObligatorioObservaciones>0</indicadorObligatorioObservaciones>
+	<fechaCreacion>22022017 000000</fechaCreacion>
+	<fechaVencimiento>24032017 235959</fechaVencimiento>
+	<fechaInicioConcertacion/>
+	<fechaFinConcertacion/>
+	<duracion>40</duracion>
+	<acreditaciones>P</acreditaciones>
+	<asignacionMultiple>0</asignacionMultiple>
+	<servicios>001</servicios>
+	<direccionPdS>
+		<direccion>CRONISTA DOÑATE</direccion>
+		<codigoPostal>12540</codigoPostal>
+		<codigoPoblacion>12135000000</codigoPoblacion>
+		<poblacion>VILLARREAL-VILA-REAL</poblacion>
+		<codigoProvincia>12</codigoProvincia>
+		<provincia>CASTELLON</provincia>
+		<numero>0001</numero>
+		<portal/>
+		<escalera/>
+		<piso></piso>
+		<puerta></puerta>
+	</direccionPdS>
+	<codigoSector>2</codigoSector>
+	<descripcionSector>GAS</descripcionSector>
+	<codigoSociedad>0103</codigoSociedad>
+	<nombreSociedad>GAS NATURAL CEGAS S.A.</nombreSociedad>
+	<codigoZona>10</codigoZona>
+	<nombreZona>COMUNITAT VALENCIANA</nombreZona>
+	<codigoUtilizacionGas>73</codigoUtilizacionGas>
+	<descripcionUtilizacionGas>Cocina con horno/encimera</descripcionUtilizacionGas>
+	<codigoUsosGas>3</codigoUsosGas>
+	<descripcionUsosGas>COMERCIAL</descripcionUsosGas>
+	<datosRegistralesSociedad>R.M. DE VALENCIA. TOMO 4452, HOJA V_24907</datosRegistralesSociedad>
+	<codigoComercializadora>Z066</codigoComercializadora>
+	<nombreComercializadora>GESTIÓN INTERNA SUMINISTROS DE BAJA</nombreComercializadora>
+	<direccionComercializadora>AVD , SAN LUIS, 0077,  - MADRID MADRID (28033)</direccionComercializadora>
+	<codigoOperacion>59</codigoOperacion>
+	<descripcionCortaOperacion>RE ALTA NE</descripcionCortaOperacion>
+	<descripcionOperacion>REAPERTURA ALTA NUEVA EDIFICACION</descripcionOperacion>
+	<situacionOperacion>0</situacionOperacion>
+	<maxDiasConcertacion/>
+	<codigoAcometida>ACO121350001940001</codigoAcometida>
+	<equipo>
+		<marca>E</marca>
+		<modelo>BK</modelo>
+		<numero>706054656</numero>
+		<digitos>5</digitos>
+		<propiedad>GNF</propiedad>
+		<ubicacion>BATERÍA</ubicacion>
+		<codigoUbicacion>TILOC00003</codigoUbicacion>
+		<lectura>241</lectura>
+		<tipoEquipo>TAPAR00009</tipoEquipo>
+		<codigoCapacidadEquipo>CL00000001</codigoCapacidadEquipo>
+		<descripcionCapacidadEquipo>G-4</descripcionCapacidadEquipo>
+	</equipo>
+	<datosCliente>
+		<nombre>1111111</nombre>
+		<numeroDocumento>111111111</numeroDocumento>
+		<direccion>
+			<direccion/>
+			<codigoPostal/>
+			<poblacion/>
+			<codigoPoblacion/>
+			<provincia/>
+			<codigoProvincia/>
+			<numero/>
+			<portal/>
+			<escalera/>
+			<piso/>
+			<puerta/>
+		</direccion>
+		<telefonoFijo>11111111</telefonoFijo>
+		<telefonoMovil>11111111</telefonoMovil>
+		<telefonoMovilFacilitado/>
+		<telefonoFijoFacilitado/>
+	</datosCliente>
+	<datosContacto>
+		<nombre>adwwadwawdadwa</nombre>
+		<telefono>1111111</telefono>
+	</datosContacto>
+	<tipoInstalacion>20</tipoInstalacion>
+	<descripcionTipoInstalacion>IRI (DOMESTICO &lt; 70kW)</descripcionTipoInstalacion>
+	<datosInstalador>
+		<nombre>FLUICAS S.L.</nombre>
+		<telefono>964 252481</telefono>
+		<telefonoMovil/>
+		<email/>
+	</datosInstalador>
+	<descripcionTipoGas>GAS NATURAL</descripcionTipoGas>
+	<unifamiliar>N</unifamiliar>
+	<cierreFinca>0</cierreFinca>
+	<nroAparatosTransformar>0</nroAparatosTransformar>
+	<descripcionEmpresaConcesionaria/>
+	<fechaPrevistaEjecucion/>
+	<horaDesdePrevista/>
+	<horaHastaPrevista/>
+	<fechaMinimaEjecucion>22022017 000000</fechaMinimaEjecucion>
+	<fechaMaximaEjecucion>24032017 235959</fechaMaximaEjecucion>
+	<fechaSolicitadaPrevistaEjecucion>22022017</fechaSolicitadaPrevistaEjecucion>
+	<horaDesdeSolicitadaEjecucion>0000</horaDesdeSolicitadaEjecucion>
+	<horaHastaSolicitadaEjecucion>0000</horaHastaSolicitadaEjecucion>
+	<fechaInspeccion/>
+	<numeroDiasRetornoIP>11</numeroDiasRetornoIP>
+	<datosVisita1>
+		<fechaResultadoVisita>13012016 092000</fechaResultadoVisita>
+		<resultadoVisita>VISSTA0002</resultadoVisita>
+		<defectosResultadoVisita/>
+	</datosVisita1>
+	<datosVisita2>
+		<fechaResultadoVisita>25012013 030000</fechaResultadoVisita>
+		<resultadoVisita>VISSTA0002</resultadoVisita>
+		<defectosResultadoVisita/>
+	</datosVisita2>
+	<fechaPuestaServicioIRI>01022008</fechaPuestaServicioIRI>
+	<fechaPuestaServicioIRC/>
+	<fechaSituacionServicio>01022008 000000</fechaSituacionServicio>
+	<situacionServicio>EN SERVICIO</situacionServicio>
+	<defectosUltimaSituacionServicio/>
+	<presionContaje>20</presionContaje>
+	<direccionVerticalPSM1/>
+	<direccionVerticalPSM2/>
+	<direccionVerticalPSM3/>
+	<direccionVerticalPSM4/>
+	<direccionVerticalPSM5/>
+	<coordenadaX>-0.0936996213579848</coordenadaX>
+	<coordenadaY>39.9377046658499</coordenadaY>
+	<numeroContrato>ES0222120112396946BJ0003</numeroContrato>
+	<cups>ES0222120112396946BJ</cups>
+	<indicadorICMPCM>ICM</indicadorICMPCM>
+	<tarifa>3.1</tarifa>
+	<codigoConexion/>
+	<contratoUsoIRC>
+		<indicadorContratoUsoIRC>N</indicadorContratoUsoIRC>
+		<indicadorFormaPago>N</indicadorFormaPago>
+		<importeDerechosAcometidaContratante>106,34</importeDerechosAcometidaContratante>
+		<importeDerechosAcometidaSolicitante>0,00</importeDerechosAcometidaSolicitante>
+		<derechosAlta>76,17</derechosAlta>
+		<totalSinIVA>182,51</totalSinIVA>
+		<IVA>38,33</IVA>
+		<alquilerContador>15,00</alquilerContador>
+		<alquilerInstalacionComun>0,00</alquilerInstalacionComun>
+		<importeUsoIRC>0,00</importeUsoIRC>
+		<datosBancarios/>
+		<Exencion>N</Exencion>
+		<MesesExencion/>
+		<Vitalicio>N</Vitalicio>
+		<FechaFinExencion/>
+	</contratoUsoIRC>
+	<maxFallidas>15</maxFallidas>
+	<numFallidas>0</numFallidas>
+	<maxAnomalias>15</maxAnomalias>
+	<numAnomalias>0</numAnomalias>
+	<anomaliasIP/>
+	<anomaliasOP/>
+	<tipoConcertacion>APPT0001</tipoConcertacion>
+	<intentosConcertacion>999</intentosConcertacion>
+	<numIntentosConcertacion>0</numIntentosConcertacion>
+	<importeOperacion>0.000</importeOperacion>
+	<codigoLote/>
+	<tipoVisita/>
+	<origenVisitaComplementaria/>
+	<origenCierreVinculada/>
+	<codigoMotivoCese/>
+	<descripcionMotivoCese/>
+	<motivoCambioContador/>
+	<idiomaCliente>CASTELLANO</idiomaCliente>
+	<codigoMercado>NE</codigoMercado>
+	<codigoUnidadGestora>57920</codigoUnidadGestora>
+	<descripcionUnidad>DELEGACION CASTELLON</descripcionUnidad>
+	<indicadorUltimoCliente>0</indicadorUltimoCliente>
+	<indicadorClienteVIP>0</indicadorClienteVIP>
+	<codigoDelegacion>0103LE01</codigoDelegacion>
+	<nombreDelegacion>Deleg.: Castellón (0103)</nombreDelegacion>
+	<idCampanya/>
+	<codigoCampanya/>
+</INT-MOV-002>
+    </Body>
+</Envelope>

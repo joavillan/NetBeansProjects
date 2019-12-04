@@ -1,0 +1,33 @@
+package gnf.sender.init;
+
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
+
+import org.springframework.integration.support.converter.MessageConversionException;
+
+import gnf.ada.async.integration.BaseMessage;
+import gnf.ada.async.integration.jms.converter.BaseMessageConverter;
+
+public class ConversorMensaje extends BaseMessageConverter {
+	 
+	 static final String MESSAGE = "message";
+	 
+	 @Override
+	 public Class<? extends BaseMessage> getClazz() {
+	 
+	  return Mensaje.class;
+	 }
+	 
+	 @Override
+	 protected void toMessage(Message ongoing, Object object, Session session) throws JMSException, MessageConversionException {
+	  super.toMessage(ongoing, object, session);
+	  ongoing.setStringProperty(MESSAGE, ((Mensaje) object).getMessage());
+	 }
+	 
+	 @Override
+	 protected void fromMessage(BaseMessage object, Message message) throws JMSException, MessageConversionException {
+	  super.fromMessage(object, message);
+	  ((Mensaje) object).setMessage(message.getStringProperty(MESSAGE));
+	 }
+	}

@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+			http://www.springframework.org/schema/beans 
+			http://www.springframework.org/schema/beans/spring-beans.xsd
+			http://www.springframework.org/schema/context
+        	http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<!-- extra application ui configuration -->
+	<bean id="momaParamService" class="gnf.moma.momaportal.servicios.impl.MomaParamServiceImpl" />	
+	<bean id="momaTrackOrderService" class="gnf.moma.momaportal.servicios.impl.MomaTrackOrderServiceImpl" />	
+	<bean id="momaUserPortalWOMServiceImpl" class="gnf.moma.momaportal.servicios.impl.MomaUserPortalWOMServiceImpl" /> 
+	<bean id="momaRulesAplService" class="gnf.moma.momaportal.servicios.impl.MomaRulesAplServiceImpl" />	
+	<bean id="momaTraceLogService" class="gnf.moma.momaportal.servicios.impl.MomaTraceLogServiceImpl" />
+	<bean id="momaErrorService" class="gnf.moma.momaportal.servicios.impl.MomaErrorServiceImpl" /> 
+	<bean id="servicioReencolado" class="gnf.moma.momaportal.servicios.impl.ServicioReencoladoImpl" />
+	
+	<bean id="momaConActivityService" class="gnf.moma.momaportal.servicios.impl.MomaConActivityServiceImpl" />
+	<bean id="momaconUsersService" class="gnf.moma.momaportal.pcc.servicios.impl.MomaconUsersServiceImpl" />
+
+</beans>

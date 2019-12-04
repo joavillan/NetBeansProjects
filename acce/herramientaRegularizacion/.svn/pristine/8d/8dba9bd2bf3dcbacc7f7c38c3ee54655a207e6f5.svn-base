@@ -1,0 +1,1 @@
+<Body><INT-MOV-009>{pr_XR_TECH_COMPANY_ID:+<codigoUnidadGestora>{pr_XR_TECH_COMPANY_ID}</codigoUnidadGestora>}{pr_XA_EQUIPMENT_CAPACITY_DESCRIPTION:+<DescripcionCapacidad>{pr_XA_EQUIPMENT_CAPACITY_DESCRIPTION}</DescripcionCapacidad>}{pr_XA_EQUIPMENT_SERIAL_NUMBER:+<NumeroSerie>{pr_XA_EQUIPMENT_SERIAL_NUMBER}</NumeroSerie>}</INT-MOV-009></Body>

@@ -1,0 +1,265 @@
+package gnf.moma.gendocument.utilidades;
+
+public class Constantes {
+	private Constantes() {}
+
+
+	
+	public static final String SET_RESULT_TO_BACKEND = "<operation>OFSCOUT001</operation>";
+	public static final String NOTIFICAR_MOMACON = "<operation>OFSCOUT003</operation>";
+	public static final String HEADER_GENDOCUMENT = "<operation>OFSCOUT003</operation>";
+	
+	// Constantes del get_activity
+	// TODO Estos campos aun no estan mapeados bien
+	public static final String APPT_NUMBER = "appt_number";
+	public static final String AID = "id";
+	public static final String resource_external_id = "";
+	public static final String resource_name = "XA_ACCREDITATIONS_JSON.Técnico"; // TODO
+	public static final String activity_time_of_booking = "";
+	public static final String POSITION_IN_ROUTE = "";
+	public static final String route_date = "";
+	public static final String XA_CERTIFICATION_DATE_BEGIN = "";
+	public static final String XA_SIGNATURE_DATE = "";
+	public static final String XA_RESULT = "";
+	public static final String XA_ORDER_NFR_CASTELLANO_TOTAL = "";
+	public static final String XA_INTERVENTION_OBS = "";
+	public static final String XA_TELEMETERED_RESULT = "";
+	public static final String XA_X509_INFORMATION = "XA_X509_INFORMATION";
+	public static final String XA_DATE_HOUR_GPS_COORD = "";
+	
+	public static final String XA_CNAME_RESULT = "XA_CNAME_RESULT";
+	public static final String XA_COUNTRY_CODE = "XA_COUNTRY_CODE";
+	public static final String XA_COUNTRY_DESCRIPTION = "XA_COUNTRY_DESCRIPTION";
+	public static final String XA_LINKED_WORK_ORDER = "XA_LINKED_WORK_ORDER";
+	public static final String XA_WORK_GROUP = "XA_WORK_GROUP";
+	public static final String XA_ORDER_COMMENTS = "XA_ORDER_COMMENTS";
+	public static final String XA_FLAG_COMMENTS = "XA_FLAG_COMMENTS";
+	public static final String XA_DATE_ORDER_CREATED = "XA_DATE_ORDER_CREATED";
+	public static final String XA_ORDER_CREATED_FILTER = "XA_ORDER_CREATED_FILTER";
+	public static final String XA_SCHEDULING_START_DATE = "XA_SCHEDULING_START_DATE";
+	public static final String XA_SCHEDULING_END_DATE = "XA_SCHEDULING_END_DATE";
+	public static final String XA_SERVICES = "XA_SERVICES";
+	public static final String XA_CITY_CODE = "XA_CITY_CODE";
+	public static final String XA_PROVINCE_CODE = "XA_PROVINCE_CODE";
+	public static final String XA_ADDRESS_NUMBER = "XA_ADDRESS_NUMBER";
+	public static final String XA_DOORWAY = "XA_DOORWAY";
+	public static final String XA_STAIRWAY = "XA_STAIRWAY";
+	public static final String XA_FLOOR = "XA_FLOOR";
+	public static final String XA_DOOR = "XA_DOOR";
+	public static final String XA_SECTOR_CODE = "XA_SECTOR_CODE";
+	public static final String XA_SECTOR = "XA_SECTOR";
+	public static final String XA_SOCIETY_CODE = "XA_SOCIETY_CODE";
+	public static final String XA_SOCIETY = "XA_SOCIETY";
+	public static final String XA_DIVISION_ZONE_CODE = "XA_DIVISION_ZONE_CODE";
+	public static final String XA_DIVISION_ZONE_CODE_NAME = "XA_DIVISION_ZONE_CODE_NAME";
+	public static final String XA_UTILIZATION_CODE = "XA_UTILIZATION_CODE";
+	public static final String XA_UTILIZATION_CODE_DESCRIPTION = "XA_UTILIZATION_CODE_DESCRIPTION";
+	public static final String XA_GAS_USE_CODE = "XA_GAS_USE_CODE";
+	public static final String XA_GAS_USE_CODE_DESCRIPTION = "XA_GAS_USE_CODE_DESCRIPTION";
+	public static final String XA_REGISTRION_SOCIETY_DATA = "XA_REGISTRION_SOCIETY_DATA";
+	public static final String XA_MARKETER = "XA_MARKETER";
+	public static final String XA_MARKETER_NAME = "XA_MARKETER_NAME";
+	public static final String XA_MARKETER_ADDRESS = "XA_MARKETER_ADDRESS";
+	public static final String XA_OPERATION_CODE = "XA_OPERATION_CODE";
+	public static final String XA_OPERATION_DES_SHORT = "XA_OPERATION_DES_SHORT";
+	public static final String XA_OPERATION_DES_LONG = "XA_OPERATION_DES_LONG";
+	public static final String XA_ORDER_SITUATION = "XA_ORDER_SITUATION";
+	public static final String XA_SUPPLY_CONNECTION_CODE = "XA_SUPPLY_CONNECTION_CODE";
+	public static final String XA_EQUIPMENT_BRAND = "XA_EQUIPMENT_BRAND";
+	public static final String XA_EQUIPMENT_BRAND_RESULT = "XA_EQUIPMENT_BRAND_RESULT";
+	public static final String XA_EQUIPMENT_MODEL = "XA_EQUIPMENT_MODEL";
+	public static final String XA_EQUIPMENT_MODEL_RESULT = "XA_EQUIPMENT_MODEL_RESULT";
+	public static final String XA_EQUIPMENT_SERIAL_NUMBER = "XA_EQUIPMENT_SERIAL_NUMBER";
+	public static final String XA_EQUIP_NUMBER = "XA_EQUIP_NUMBER";
+	public static final String XA_EQUIPMENT_DIGIT_NUMBER = "XA_EQUIPMENT_DIGIT_NUMBER";
+	public static final String XA_EQUIPMENT_OWNER = "XA_EQUIPMENT_OWNER";
+	public static final String XA_EQUIPMENT_OWNER_RESULT = "XA_EQUIPMENT_OWNER_RESULT";
+	public static final String XA_EQUIPMENT_LOCATION_DESCRIPTION = "XA_EQUIPMENT_LOCATION_DESCRIPTION";
+	public static final String XA_EQUIPMENT_LOCATION_CODE = "XA_EQUIPMENT_LOCATION_CODE";
+	public static final String XA_COUNTER_STATUS = "XA_COUNTER_STATUS";
+	public static final String XA_EQUIPMENT_READING = "XA_EQUIPMENT_READING";
+	public static final String XA_EQUIPMENT_READING_RESULT = "XA_EQUIPMENT_READING_RESULT";
+	public static final String XA_EQUIPMENT_TYPE = "XA_EQUIPMENT_TYPE";
+	public static final String XA_EQUIPMENT_CAPACITY_CODE = "XA_EQUIPMENT_CAPACITY_CODE";
+	public static final String XA_EQUIPMENT_CAPACITY_DESCRIPTION = "XA_EQUIPMENT_CAPACITY_DESCRIPTION";
+	public static final String XA_CAPACITY_METER = "XA_CAPACITY_METER";
+	public static final String XA_CUSTOMER_DOC = "XA_CUSTOMER_DOC";
+	public static final String XA_CUSTOMER_DOC_RESULT = "XA_CUSTOMER_DOC_RESULT";
+	public static final String XA_ADDRESS = "XA_ADDRESS";
+	public static final String XA_C_CITY_CODE = "XA_C_CITY_CODE";
+	public static final String XA_C_PROVINCE_CODE = "XA_C_PROVINCE_CODE";
+	public static final String XA_C_ADDRESS_NUMBER = "XA_C_ADDRESS_NUMBER";
+	public static final String XA_C_DOORWAY = "XA_C_DOORWAY";
+	public static final String XA_C_STAIRWAY = "XA_C_STAIRWAY";
+	public static final String XA_C_FLOOR = "XA_C_FLOOR";
+	public static final String XA_C_DOOR = "XA_C_DOOR";
+	public static final String XA_CONTACT_TELEPHONE_2 = "XA_CONTACT_TELEPHONE_2";
+	public static final String XA_ORDER_PHONE_NUMBER = "XA_ORDER_PHONE_NUMBER";
+	public static final String XA_CONTACT_NAME = "XA_CONTACT_NAME";
+	public static final String XA_CONTACT_TELEPHONE_1 = "XA_CONTACT_TELEPHONE_1";
+	public static final String XA_INSTALLATION_TYPE_CODE = "XA_INSTALLATION_TYPE_CODE";
+	public static final String XA_INSTALLATION_TYPE_PTOACT0003 = "XA_INSTALLATION_TYPE_PTOACT0003";
+	public static final String XA_INSTALLER_NAME = "XA_INSTALLER_NAME";
+	public static final String XA_INSTALLER_PHONE = "XA_INSTALLER_PHONE";
+	public static final String XA_INSTALLER_CELLPHONE = "XA_INSTALLER_CELLPHONE";
+	public static final String XA_INSTALLER_EMAIL = "XA_INSTALLER_EMAIL";
+	public static final String XA_GAS_TYPE_DESCRIPTION = "XA_GAS_TYPE_DESCRIPTION";
+	public static final String XA_FAMILY_HOUSE = "XA_FAMILY_HOUSE";
+	public static final String XA_BUILDING_CLOSURE = "XA_BUILDING_CLOSURE";
+	public static final String XA_TRANSFORM_DEVICES_NUMBER = "XA_TRANSFORM_DEVICES_NUMBER";
+	public static final String XA_MANAGEMENT_DESCRIPTION = "XA_MANAGEMENT_DESCRIPTION";
+	public static final String XA_EXECUTION_EXPECTED_DATE = "XA_EXECUTION_EXPECTED_DATE";
+	public static final String XA_EXECUTION_EXPECTED_TIME_BEGIN = "XA_EXECUTION_EXPECTED_TIME_BEGIN";
+	public static final String XA_EXECUTION_EXPECTED_TIME_END = "XA_EXECUTION_EXPECTED_TIME_END";
+	public static final String XA_MIN_EXECUTION_DATE = "XA_MIN_EXECUTION_DATE";
+	public static final String XA_MAX_EXECUTION_DATE = "XA_MAX_EXECUTION_DATE";
+	public static final String XA_REQUESTED_EXECUTION_DATE = "XA_REQUESTED_EXECUTION_DATE";
+	public static final String XA_REQUESTED_EXECUTION_TIME_BEGIN = "XA_REQUESTED_EXECUTION_TIME_BEGIN";
+	public static final String XA_REQUESTED_EXECUTION_TIME_END = "XA_REQUESTED_EXECUTION_TIME_END";
+	public static final String XA_INSPECTION_DATE = "XA_INSPECTION_DATE";
+	public static final String XA_INSPECTION_NUMBERED_DAYS = "XA_INSPECTION_NUMBERED_DAYS";
+	public static final String XA_LAST_VISIT_DATE = "XA_LAST_VISIT_DATE";
+	public static final String XA_PREVIOUS_RESULT_VISIT = "XA_PREVIOUS_RESULT_VISIT";
+	public static final String XA_DEFECT = "XA_DEFECT";
+	public static final String XA_NEXT_TO_LAST_VISIT_DATE = "XA_NEXT_TO_LAST_VISIT_DATE";
+	public static final String XA_PREVIOUS_RESULT_VISIT_2 = "XA_PREVIOUS_RESULT_VISIT_2";
+	public static final String XA_DEFECT_2 = "XA_DEFECT_2";
+	public static final String XA_IRI_SERVICE_DATE = "XA_IRI_SERVICE_DATE";
+	public static final String XA_IRC_SERVICE_DATE = "XA_IRC_SERVICE_DATE";
+	public static final String XA_SERVICE_STATUS_DATE = "XA_SERVICE_STATUS_DATE";
+	public static final String XA_SERVICE_STATUS = "XA_SERVICE_STATUS";
+	public static final String XA_DEFECTS_LAST_SITUATION = "XA_DEFECTS_LAST_SITUATION";
+	public static final String XA_BUILDING_COUNT_PRESSURE = "XA_BUILDING_COUNT_PRESSURE";
+	public static final String XA_CONTRACT_NUMBER = "XA_CONTRACT_NUMBER";
+	public static final String XA_CUPS_NUMBER = "XA_CUPS_NUMBER";
+	public static final String XA_CONNECTION_CODE = "XA_CONNECTION_CODE";
+	public static final String XA_USE_CONTRACT_INDICATOR = "XA_USE_CONTRACT_INDICATOR";
+	public static final String XA_PAYMENT_TYPE = "XA_PAYMENT_TYPE";
+	public static final String XA_CONNECTION_RIGHTS_CONTRACTOR_AMOUNT = "XA_CONNECTION_RIGHTS_CONTRACTOR_AMOUNT";
+	public static final String XA_CONNECTION_RIGHTS_SOLICITOR_AMOUNT = "XA_CONNECTION_RIGHTS_SOLICITOR_AMOUNT";
+	public static final String XA_CONNECTION_RIGHTS = "XA_CONNECTION_RIGHTS";
+	public static final String XA_TOTAL_WITHOUT_VAT = "XA_TOTAL_WITHOUT_VAT";
+	public static final String XA_VAT_AMOUNT = "XA_VAT_AMOUNT";
+	public static final String XA_COUNTER_RENT = "XA_COUNTER_RENT";
+	public static final String XA_COMMON_INSTALLATION_RENT = "XA_COMMON_INSTALLATION_RENT";
+	public static final String XA_IRC_USE_AMOUNT = "XA_IRC_USE_AMOUNT";
+	public static final String XA_BANK_ACCOUNT_NUMBER = "XA_BANK_ACCOUNT_NUMBER";
+	public static final String XA_MAX_NUM_INSTALL_FAILS = "XA_MAX_NUM_INSTALL_FAILS";
+	public static final String XA_COUNTER_INSTALL_FAILS = "XA_COUNTER_INSTALL_FAILS";
+	public static final String XA_MAX_NUM_VISIT_FAILED = "XA_MAX_NUM_VISIT_FAILED";
+	public static final String XA_COUNTER_VISIT_FAILED = "XA_COUNTER_VISIT_FAILED";
+	public static final String XA_SCHEDULING_TYPE = "XA_SCHEDULING_TYPE";
+	public static final String XA_SCHEDULING_MODEL = "XA_SCHEDULING_MODEL";
+	public static final String XA_MAX_SCHEDULING_ATTEMPTS = "XA_MAX_SCHEDULING_ATTEMPTS";
+	public static final String XA_SCHEDULING_COUNTER = "XA_SCHEDULING_COUNTER";
+	public static final String XA_OPERATION_COST = "XA_OPERATION_COST";
+	public static final String XA_LOT = "XA_LOT";
+	public static final String XA_VISIT_TYPE = "XA_VISIT_TYPE";
+	public static final String XA_CLOSING_MOTIVE = "XA_CLOSING_MOTIVE";
+	public static final String XA_COUNTER_EXCHANGE = "XA_COUNTER_EXCHANGE";
+	public static final String XA_CUSTOMER_LANGUAGE = "XA_CUSTOMER_LANGUAGE";
+	public static final String XA_MARKET_TYPE = "XA_MARKET_TYPE";
+	public static final String XA_MANAGEMENT_UNIT = "XA_MANAGEMENT_UNIT";
+	public static final String XA_UNIT_DESCRIPTION = "XA_UNIT_DESCRIPTION";
+	public static final String XA_LAST_CLIENT = "XA_LAST_CLIENT";
+	public static final String XA_VIP_CUSTOMER_FLAG = "XA_VIP_CUSTOMER_FLAG";
+	public static final String XA_DELEGATION_UNIT = "XA_DELEGATION_UNIT";
+	public static final String XA_DELEGATION_UNIT_CODE = "XA_DELEGATION_UNIT_CODE";
+	public static final String XA_TAX = "XA_TAX";
+	public static final String XA_NE_SOURCE = "XA_NE_SOURCE";
+	public static final String XA_GAS_METER_CODE_SCAN_BTN = "XA_GAS_METER_CODE_SCAN_BTN";
+	public static final String XA_TESTO_MEASURE_BTN = "XA_TESTO_MEASURE_BTN";
+	public static final String XA_YOLEOGAS_BTN = "XA_YOLEOGAS_BTN";
+	public static final String XA_CODIGO_CONTADOR_PRECINTO_BTN = "XA_CODIGO_CONTADOR_PRECINTO_BTN";
+	public static final String XA_DOC_PREVIEW_BTN = "XA_DOC_PREVIEW_BTN";
+	public static final String XA_MOBILITY_PROP_HIDE = "XA_MOBILITY_PROP_HIDE";
+	public static final String XA_CHECK_PRESSIONS = "XA_CHECK_PRESSIONS";
+	public static final String XA_CUSTOMER_HIDE_FIELDS = "XA_CUSTOMER_HIDE_FIELDS";
+	public static final String XA_TICKET_INFO = "XA_TICKET_INFO";
+	public static final String XA_ADDRESS_FULL = "XA_ADDRESS_FULL";
+	public static final String XA_ADDRESS_CLIENT_FULL = "XA_ADDRESS_CLIENT_FULL";
+	public static final String XA_PRIORITY = "XA_PRIORITY";
+	public static final String XA_TESTO_MEASURE_BTN_2 = "XA_TESTO_MEASURE_BTN_2";
+	public static final String XA_TESTO_MEASURE_BTN_3 = "XA_TESTO_MEASURE_BTN_3";
+	public static final String XA_TESTO_MEASURE_BTN_4 = "XA_TESTO_MEASURE_BTN_4";
+	public static final String XA_TESTO_MEASURE_BTN_5 = "XA_TESTO_MEASURE_BTN_5";
+	public static final String XA_TESTO_MEASURE_BTN_6 = "XA_TESTO_MEASURE_BTN_6";
+	public static final String XA_TESTO_MEASURE_BTN_7 = "XA_TESTO_MEASURE_BTN_7";
+	public static final String XA_TESTO_MEASURE_BTN_8 = "XA_TESTO_MEASURE_BTN_8";
+	public static final String XA_TESTO_MEASURE_BTN_9 = "XA_TESTO_MEASURE_BTN_9";
+	public static final String XA_TESTO_MEASURE_BTN_10 = "XA_TESTO_MEASURE_BTN_10";
+	public static final String XA_TESTO_MEASURE_BTN_11 = "XA_TESTO_MEASURE_BTN_11";
+	public static final String XA_TESTO_MEASURE_BTN_12 = "XA_TESTO_MEASURE_BTN_12";
+	public static final String XA_TESTO_MEASURE_BTN_13 = "XA_TESTO_MEASURE_BTN_13";
+	public static final String XA_TESTO_MEASURE_BTN_14 = "XA_TESTO_MEASURE_BTN_14";
+	public static final String XA_TESTO_MEASURE_BTN_15 = "XA_TESTO_MEASURE_BTN_15";
+	public static final String XA_CHANGE_BTN = "XA_CHANGE_BTN";
+	public static final String XA_SAVE_DATA = "XA_SAVE_DATA";
+	public static final String XA_HIDE_PREVIEW = "XA_HIDE_PREVIEW";
+	public static final String XA_SCRIPT_MANDATORY_FILES = "XA_SCRIPT_MANDATORY_FILES";
+	public static final String XA_COUNTER_INSTALL = "XA_COUNTER_INSTALL";
+	public static final String XA_READY_TO_DISPATCH = "XA_READY_TO_DISPATCH";
+	public static final String XA_EXECUTION_LIMIT_DATE = "XA_EXECUTION_LIMIT_DATE";
+	public static final String XA_EXECUTION_LIMIT_FILTER = "XA_EXECUTION_LIMIT_FILTER";
+	public static final String XA_LEGAL_PERIOD_DATE = "XA_LEGAL_PERIOD_DATE";
+	public static final String XA_LEGAL_PERIOD_FILTER = "XA_LEGAL_PERIOD_FILTER";
+	public static final String XA_NEXT_SCHEDULING_DATE = "XA_NEXT_SCHEDULING_DATE";
+
+	
+	// Constantes del fichero de pasos para NOTIFICAR_MOMACON
+	public static final String countryCode = "{pr_XA_COUNTRY_CODE}";
+	public static final String sectorCode = "{pr_XA_SECTOR_CODE}";
+	public static final String numeroOrden = "{appt_number}";
+	public static final String numeroActividad = "{aid}";
+	public static final String IdTecnico = "{resource_external_id}";
+	public static final String NombreTecnico = "{resource_name}";
+	public static final String fechaCreacion = "{activity_time_of_booking}";
+	public static final String PosicionRuta = "{activity_position_in_route}";
+	public static final String fechaIntervencion = "{route_date}"; // 00:00:00
+	public static final String fechaIntervencionInicio = "{route_date} {activity_start_time:+{activity_start_time}}{activity_start_time:-00:00:00}";
+	public static final String fechaIntervencionFin = "{route_date} {activity_end_time:+{activity_end_time}}{activity_end_time:-00:00:00}";
+	public static final String fechaCertificadoInicio = "{pr_XA_CERTIFICATION_DATE_BEGIN}";
+	public static final String fechaCertificadoFin = "{pr_XA_CERTIFICATION_DATE_END}";
+	public static final String fechaFirma = "{pr_XA_SIGNATURE_DATE}";
+	public static final String resultadoActividad = "{pr_XA_RESULT}";
+	public static final String nroAparatosTransformar = "{pr_XA_TRANSFORM_DEVICES_NUMBER_RESULT}";
+	public static final String motivoImposibleRealizar = "{pr_XA_ORDER_NFR_CASTELLANO_TOTAL}";
+	public static final String comentarioVisita = "{pr_XA_INTERVENTION_OBS}";
+	public static final String tarifa = "{pr_XA_TAX}";
+	public static final String telemedido = "{pr_XA_TELEMETERED_RESULT}";
+	public static final String certificadoTecnico = "{pr_XA_X509_INFORMATION}";
+	public static final String cierreFinca = "{pr_XA_BUILDING_CLOSURE_RESULT}";
+	public static final String fechaHoraCoordenadaPDA = "{pr_XA_DATE_HOUR_GPS_COORD}";
+	
+	
+	// Constantes del fichero de pasos para SEND RESULT TO BACKEND
+	public static final String codigoUnidadGestora = "pr_XR_TECH_COMPANY_ID";
+	
+	// Constantes para definir la estructura de los IDX a generar de acuerdo al tipo de fichero
+	public static final String MIME_TYPE_FIRMA_JPG = "image/jpeg";
+	public static final String MIME_TYPE_FIRMA_PNG = "image/png";
+	public static final String MIME_TYPE_FIRMA_GIF = "image/gif";
+	public static final String MIME_TYPE_FIRMA = "application/xml";
+	public static final String EXTENSION_FIRMA = "xml";
+	public static final String EXT_DOCUMENT_DIGITAL_FIRMADO = "DFD";
+	
+	public static final String DOCUMENTUM_TIPO_DOCUMENTAL_FIRMA = "MOBDOCFIMP01";
+	public static final String DOCUMENTUM_TIPO_DOCUMENTAL_IMAGEN = "MOBFOTOIMP01";
+	public static final String DOCUMENTUM_TIPO_DOCUMENTAL_GENERICO = "MOBDOCOIMP01";
+	
+	public static final String SECTOR_DESC_GAS = "GAS";
+	public static final String SECTOR_DESC_ELECTRICIDAD = "ELECTRICIDAD";
+	public static final String FORMATO_FECHA_IDX = "dd/MM/yyyy HH:mm:ss";
+	public static final String NOMBRE_ACLARADOR = "ACL_MOBILDOC_LECTURA";
+	//Ruta de los WSDL en sergvidor
+	public static final String RUTA_GLOBAL = "file:/apps/MomaWeb/config/";
+	public static final String NOMBRE_WSDL_OFSC_ACTIVITY = "Activity.wsdl";
+	
+	// Constantes de Servicio de generacion de documentos
+	public static final String URL_BUS_INTEGRACION = "url.bus.integracion";
+	public static final String URL_WSDL_OFSC_APIBIND = "url.wsdl.ofsc.activity";
+	public static final String URL_BUS_INTEGRACION_DES = "http://dmqbrka1.intranet.gasnatural.com:14170/momaes/";
+	public static final String CONEXION_OFSC_APIBND = "/brkd00?OFSC_APIBND";
+	public static final String RUTA_GLOBAL_PROPERTIES = "C:\\Users\\manuel.molero.busto\\gnf_services_workspace\\servicesnnr\\src\\main\\resources\\global.properties";
+	public static final String RUTA_FICHEROS_IDX = "/DOCUMENTOS";
+}

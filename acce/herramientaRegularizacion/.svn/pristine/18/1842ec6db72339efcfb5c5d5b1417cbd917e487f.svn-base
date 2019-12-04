@@ -1,0 +1,52 @@
+# Identificador de aplicacion
+gnf.ada.security.idApp = sender
+
+# Available locales
+ada.i18n.locales = {new java.util.Locale('ca','ES'), new java.util.Locale('es','ES')}
+
+# Security Mask (securityType, data, function, realm. menu = DDBB) 
+gnf.ada.security.level = PRO
+
+# framework profiles, separated by a "," could be one of notification, async , oracle-logging, globalization 
+ada.active.profiles=
+
+# project custom profiles
+project.active.profiles=
+
+# Configuración de exportación
+export.module.downloadpath = /sender/download/
+export.module.path = /var/www/sender/download
+
+#INT (BUS)
+#url.wsdl.ofsc.activity = http://wmbint.intranet.gasnatural.com:14170/momaes/ofsc_apibnd?wsdl
+#DES (BUS)
+#url.wsdl.ofsc.activity = http://dmqbrka1.intranet.gasnatural.com:14170/momaes/ofsc_apibnd?wsdl
+#INT (16.2)
+#url.wsdl.ofsc.activity = https://api.etadirect.com/soap/activity/v2/?wsdl
+#DES
+url.wsdl.ofsc.activity = https://eu.toadirect.com/gnf-es/soap/activity/v2/
+#TODOS LOS ENTORNOS (DEPENDE DEL USUARIO)
+#url.wsdl.ofsc.activity = https://legacy-api.etadirect.com/soap/activity/v2/?wsdl
+#DEV
+url.wsdl.ofsc.user = soap_prod
+url.wsdl.ofsc.password = S04p_pr0d!
+url.wsdl.ofsc.company = gnf-es
+
+#INT
+#url.wsdl.ofsc.user = soap_test1
+#url.wsdl.ofsc.password = s04p_t3st1
+#url.wsdl.ofsc.company = gnf-es2.test
+
+#PRO
+#url.wsdl.ofsc.user = soap_prod
+#url.wsdl.ofsc.password = S04p_pr0d!
+#url.wsdl.ofsc.company = gnf-es
+
+
+
+#ZEUS INT
+#url.zeus.notificacion = http://wmbint.intranet.gasnatural.com:14170/momaes/brkd00
+#ZEUS DES
+url.zeus.notificacion = http://dmqbrka1.intranet.gasnatural.com:14170/momaes/brkd00
+
+url.sernvicesnnr.gendocument = http://womdes.intranet.gasnatural.com/momaservicesnnr/GenDocumentumFilesService?WSDL

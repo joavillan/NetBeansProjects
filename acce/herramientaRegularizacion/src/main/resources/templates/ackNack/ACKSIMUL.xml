@@ -1,0 +1,19 @@
+<Envelope id="ZEUOPE0000010203">
+	<Body>
+		<INT-MOV-009>
+			<messageId>20391768</messageId>
+			<origen>ZEUS</origen>
+			<codigoPais>01</codigoPais>
+			<codigoSector>2</codigoSector>
+			<fechaEnvio>18012018 112911</fechaEnvio>
+			<tipoOrden>001</tipoOrden>
+			<numeroOrden>3879952</numeroOrden>
+			<codigoTeam>ACTIVAIS - LLEIDA</codigoTeam>
+			<tipoVisita />
+			<resultado>1</resultado>
+			<codigoError>7</codigoError>
+			<campoError>EL ESTADO DE LA OPERACION NO PERMITE NOTIFICACION DE RESULTADOS. ESTADO: ACTSTA0014 - RESUELTA</campoError>
+			<cierreZEUS />
+		</INT-MOV-009>
+	</Body>
+</Envelope>

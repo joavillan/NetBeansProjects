@@ -1,0 +1,186 @@
+<Envelope id="MOBILE0000200102">
+    <Body>
+        <INT-MOV-002>
+            <messageId>ZEUS0001224611</messageId>
+            <origen>ZEUS</origen>
+            <codigoPais>01</codigoPais>
+            <nombrePais>ESPAÑA</nombrePais>
+            <fechaEnvio>24022016 104647</fechaEnvio>
+            <numeroOrden>2017021301P2</numeroOrden>
+            <tipoOrden>001</tipoOrden>
+            <nroOrdenVinculada></nroOrdenVinculada>
+            <codigoTeam>315915-0343</codigoTeam>
+            <observaciones></observaciones>
+            <codigoAgente></codigoAgente>
+            <indicadorObligatorioObservaciones>0</indicadorObligatorioObservaciones>
+            <fechaCreacion>24022016 000000</fechaCreacion>
+            <fechaVencimiento>25032016 235959</fechaVencimiento>
+            <fechaInicioConcertacion></fechaInicioConcertacion>
+            <fechaFinConcertacion></fechaFinConcertacion>
+            <duracion>30</duracion>
+            <acreditaciones>P</acreditaciones>
+            <asignacionMultiple>0</asignacionMultiple>
+            <servicios>001</servicios>
+            <direccionPdS>
+                <direccion>PG MARITIMO</direccion>
+                <codigoPostal>43892</codigoPostal>
+                <codigoPoblacion>43092000000</codigoPoblacion>
+                <poblacion>MONT-ROIG DEL CAMP</poblacion>
+                <codigoProvincia>43</codigoProvincia>
+                <provincia>TARRAGONA</provincia>
+                <numero>0162</numero>
+                <portal></portal>
+                <escalera>001</escalera>
+                <piso>06</piso>
+                <puerta>00002</puerta>
+            </direccionPdS>
+            <codigoSector>2</codigoSector>
+            <descripcionSector>GAS</descripcionSector>
+            <codigoSociedad>0118</codigoSociedad>
+            <nombreSociedad>GAS NATURAL DISTRIBUCIÓN SDG, S.A.</nombreSociedad>
+            <codigoZona>09</codigoZona>
+            <nombreZona>CATALUNYA</nombreZona>
+            <codigoUtilizacionGas>75</codigoUtilizacionGas>
+            <descripcionUtilizacionGas>Cocina con horno/encimera y Caldera Calefacción y secadora</descripcionUtilizacionGas>
+            <codigoUsosGas>1</codigoUsosGas>
+            <descripcionUsosGas>DESCONOCIDO</descripcionUsosGas>
+            <datosRegistralesSociedad>R.M.BARCELONA T.36512,FOL.120,H.B-279362</datosRegistralesSociedad>
+            <codigoComercializadora></codigoComercializadora>
+            <nombreComercializadora></nombreComercializadora>
+            <direccionComercializadora></direccionComercializadora>
+            <codigoOperacion>01</codigoOperacion>
+            <descripcionCortaOperacion>ALTSUM</descripcionCortaOperacion>
+            <descripcionOperacion>ALTA DE SUMINISTRO</descripcionOperacion>
+            <situacionOperacion>0</situacionOperacion>
+            <codigoAcometida>ACO439120000870026</codigoAcometida>
+            <descripcionRangoPresionRed>MEDIA PRESION 01</descripcionRangoPresionRed>
+            <equipo>
+                <marca></marca>
+                <modelo></modelo>
+                <numero></numero>
+                <digitos></digitos>
+                <propiedad></propiedad>
+                <ubicacion></ubicacion>
+                <codigoUbicacion></codigoUbicacion>
+                <lectura></lectura>
+                <tipoEquipo></tipoEquipo>
+                <codigoCapacidadEquipo></codigoCapacidadEquipo>
+                <descripcionCapacidadEquipo></descripcionCapacidadEquipo>
+            </equipo>
+            <datosCliente>
+                <nombre>JUAN ANTONIO DONAIRE AVILA</nombre>
+                <numeroDocumento>76015000T</numeroDocumento>
+                <direccion>
+                    <direccion>JUAN DE URBIETA</direccion>
+                    <codigoPostal>28007</codigoPostal>
+                    <poblacion>MADRID</poblacion>
+                    <codigoPoblacion>28079000000</codigoPoblacion>
+                    <provincia>MADRID</provincia>
+                    <codigoProvincia>28</codigoProvincia>
+                    <numero>0000</numero>
+                    <portal>018</portal>
+                    <escalera></escalera>
+                    <piso>01</piso>
+                    <puerta>00004</puerta>
+                </direccion>
+                <telefonoFijo>635926341</telefonoFijo>
+                <telefonoMovil></telefonoMovil>
+                <telefonoMovilFacilitado></telefonoMovilFacilitado>
+                <telefonoFijoFacilitado></telefonoFijoFacilitado>
+            </datosCliente>
+            <datosContacto>
+                <nombre></nombre>
+                <telefono>635926341</telefono>
+            </datosContacto>
+            <tipoInstalacion>20</tipoInstalacion>
+            <descripcionTipoInstalacion>IRI (DOMESTICO &lt; 70kW)</descripcionTipoInstalacion>
+            <datosInstalador>
+                <nombre></nombre>
+                <telefono></telefono>
+                <telefonoMovil></telefonoMovil>
+                <email></email>
+            </datosInstalador>
+            <descripcionTipoGas>PROPANO</descripcionTipoGas>
+            <unifamiliar>N</unifamiliar>
+            <cierreFinca>0</cierreFinca>
+            <nroAparatosTransformar>0</nroAparatosTransformar>
+            <descripcionEmpresaConcesionaria></descripcionEmpresaConcesionaria>
+            <fechaPrevistaEjecucion></fechaPrevistaEjecucion>
+            <horaDesdePrevista></horaDesdePrevista>
+            <horaHastaPrevista></horaHastaPrevista>
+            <fechaMinimaEjecucion>24022016 235959</fechaMinimaEjecucion>
+            <fechaMaximaEjecucion>25032016 235959</fechaMaximaEjecucion>
+            <fechaSolicitadaPrevistaEjecucion>24022016</fechaSolicitadaPrevistaEjecucion>
+            <horaDesdeSolicitadaEjecucion>0000</horaDesdeSolicitadaEjecucion>
+            <horaHastaSolicitadaEjecucion>0000</horaHastaSolicitadaEjecucion>
+            <fechaInspeccion></fechaInspeccion>
+            <numeroDiasRetornoIP>11</numeroDiasRetornoIP>
+            <datosVisita1>
+                <fechaResultadoVisita></fechaResultadoVisita>
+                <resultadoVisita>Primera Visita</resultadoVisita>
+                <defectosResultadoVisita/>
+            </datosVisita1>
+            <datosVisita2>
+                <fechaResultadoVisita></fechaResultadoVisita>
+                <resultadoVisita></resultadoVisita>
+                <defectosResultadoVisita/>
+            </datosVisita2>
+            <fechaPuestaServicioIRI></fechaPuestaServicioIRI>
+            <fechaPuestaServicioIRC></fechaPuestaServicioIRC>
+            <fechaSituacionServicio>28062015 201912</fechaSituacionServicio>
+            <situacionServicio>ALTA EN SISTEMA</situacionServicio>
+            <defectosUltimaSituacionServicio/>
+            <presionContaje>22</presionContaje>
+            <direccionVerticalPSM1></direccionVerticalPSM1>
+            <direccionVerticalPSM2></direccionVerticalPSM2>
+            <direccionVerticalPSM3></direccionVerticalPSM3>
+            <direccionVerticalPSM4></direccionVerticalPSM4>
+            <direccionVerticalPSM5></direccionVerticalPSM5>
+            <coordenadaX>0.941244871489533</coordenadaX>
+            <coordenadaY>41.0073943168656</coordenadaY>
+            <numeroContrato></numeroContrato>
+            <cups>ES0230010303318648NT</cups>
+            <codigoConexion></codigoConexion>
+            <contratoUsoIRC>
+                <indicadorContratoUsoIRC>N</indicadorContratoUsoIRC>
+                <indicadorFormaPago>N</indicadorFormaPago>
+                <importeDerechosAcometidaContratante>106,34</importeDerechosAcometidaContratante>
+                <importeDerechosAcometidaSolicitante>0,00</importeDerechosAcometidaSolicitante>
+                <derechosAlta>0,00</derechosAlta>
+                <totalSinIVA>106,34</totalSinIVA>
+                <IVA>22,33</IVA>
+                <alquilerContador>15,00</alquilerContador>
+                <alquilerInstalacionComun>0,00</alquilerInstalacionComun>
+                <importeUsoIRC>0,00</importeUsoIRC>
+                <datosBancarios></datosBancarios>
+            </contratoUsoIRC>
+            <maxFallidas>15</maxFallidas>
+            <numFallidas>0</numFallidas>
+            <maxAnomalias>15</maxAnomalias>
+            <numAnomalias>0</numAnomalias>
+            <anomaliasIP/>
+            <anomaliasOP/>
+            <tipoConcertacion>APPT0001</tipoConcertacion>
+            <intentosConcertacion>999</intentosConcertacion>
+            <numIntentosConcertacion>0</numIntentosConcertacion>
+            <importeOperacion>0.000</importeOperacion>
+            <codigoLote></codigoLote>
+            <tipoVisita></tipoVisita>
+            <origenVisitaComplementaria></origenVisitaComplementaria>
+            <origenCierreVinculada></origenCierreVinculada>
+            <codigoMotivoCese></codigoMotivoCese>
+            <descripcionMotivoCese></descripcionMotivoCese>
+            <motivoCambioContador></motivoCambioContador>
+            <idiomaCliente>CASTELLANO</idiomaCliente>
+            <codigoMercado>SV</codigoMercado>
+            <codigoUnidadGestora>11812</codigoUnidadGestora>
+            <descripcionUnidad>VENTAS SV ES CATALUÑA</descripcionUnidad>
+            <indicadorUltimoCliente>0</indicadorUltimoCliente>
+            <indicadorClienteVIP>0</indicadorClienteVIP>
+            <codigoDelegacion>0118ES01</codigoDelegacion>
+            <nombreDelegacion>Deleg.: SV y ES Este Gas Natural Distribución SDG (0118)</nombreDelegacion>
+            <idCampanya></idCampanya>
+            <codigoCampanya></codigoCampanya>
+        </INT-MOV-002>
+    </Body>
+</Envelope>

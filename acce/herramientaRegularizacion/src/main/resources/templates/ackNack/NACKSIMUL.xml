@@ -1,0 +1,17 @@
+<Envelope id="MOBILE0000200104" error="ERROR">
+
+    <Body>
+		<INT-MOV-007>
+					<messageId>ZEUS0005060164</messageId>
+					<origen>ZEUS</origen>
+					<codigoPais>01</codigoPais>
+					<codigoSector>2</codigoSector>
+					<fechaEnvio>07022018 182642</fechaEnvio>
+					<tipoPeticion>002</tipoPeticion>
+					<tipoOrden>001</tipoOrden>
+					<numeroOrden>20180208222</numeroOrden>
+					<codigoTeam>315915-0343</codigoTeam>
+					<tipoVisita/>
+				</INT-MOV-007>
+    </Body>
+</Envelope>

@@ -1,0 +1,26 @@
+<beans:beans xmlns="http://www.springframework.org/schema/integration"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:beans="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:jms="http://www.springframework.org/schema/integration/jms"
+	xmlns:stream="http://www.springframework.org/schema/integration/stream"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context.xsd
+            http://www.springframework.org/schema/integration
+            http://www.springframework.org/schema/integration/spring-integration.xsd
+            http://www.springframework.org/schema/integration/jms
+            http://www.springframework.org/schema/integration/jms/spring-integration-jms-1.0.xsd">
+
+	<beans:import resource="moma-integration-ext-jms-bindings.xml" />
+	<context:annotation-config />
+
+	<channel id="resSenderChannelEl" />
+
+	<gateway id="resSenderServiceEl"
+		service-interface="gnf.sender.SenderServiceEl" />
+		
+	<jms:outbound-channel-adapter channel="resSenderChannelEl"
+		destination="resReplyQueue" connection-factory="resConnectionFactoryEl" />
+
+</beans:beans>
